@@ -1,0 +1,6 @@
+#设计结构1
+1. substrate Si，Au film/Ag film容易氧化要加Al2O3，具体性能要都尝试一遍
+2. spacer Al2O3，5nm，如果Ag cube偏小共振在蓝绿光可以用SiO2（有红移效应）
+3. antenna Ag，大小数量级在close to e-1um
+4. cavity Ag（Au会吸收黄光ohmic loss），大小数量级在e-2um
+5. hBN薄片

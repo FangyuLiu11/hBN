@@ -1,0 +1,25 @@
+参数：
+1. 黄光波长：570~590
+2. FDTD区域：
+3. mesh区域：
+4. pillar大小：直径0.16um，高度0.146um，(2.5, 2.5)
+5. 激光：575nm，半径1um，distance from waste=0.25-0.146=0.104
+6. 纵轴是magnitude，倍数absolute value
+
+Gaussian sim：
+E：
+xz图：
+z=1.31e-7时max<=36
+
+xy图：
+y=2.5e-6时max<=9
+
+
+P：
+xz：
+100nm=100e-9=1e-7
+
+Dipole sim：
+E：
+xz：
+z=1.45e-7 x=2.49e-6 max=5.72e3
