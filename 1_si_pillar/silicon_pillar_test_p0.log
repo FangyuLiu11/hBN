@@ -1,0 +1,79 @@
+All processes are communicating and ready to proceed to simulation...
+CPU threads per process: 1
+Ansys Lumerical 2026 R1.1 FDTD Solver Version 8.35.4474 (Windows 64bit)
+ expires (month/day/year): Permanent
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@QCS3
+current time: Wed Jun 17 18:02:05 2026
+Running on host: QCS3
+host available memory (GiB) 7.022
+
+All processes are communicating and ready to proceed to simulation...
+Detected 6 processes on 1 host
+This process is the local leader
+Running fsp file: C:\Program Files\Lumerical\v261\bin\fdtd-engine-msmpi.exe -t 1 -remote C:/Users/Bachelors_thesis/New Folder/1_si_pillar/silicon_pillar_test.fsp
+Estimate of memory required: 1.095 GiB
+
+Sharing project file with 5 peer processes on this host
+All processes are communicating and ready to proceed to simulation...
+number of processors is 6
+processors are distributed as: 1x2x3
+Peak CPU memory used by end of initialization: 0.078202 GiB
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 174 x 88 x 127
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.218750 seconds of CPU time
+24% initialized.
+33% initialized.
+Starting meshing
+Simulation size in gridpoints: 174 x 88 x 127
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.187500 seconds of CPU time
+57% initialized.
+66% initialized.
+Starting meshing
+Simulation size in gridpoints: 174 x 88 x 127
+Refined 0 mesh cells (0.000000%)
+Completed meshing!
+Meshing complete in 0.187500 seconds of CPU time
+90% initialized.
+99% initialized.
+finished material properties
+Meshing Time: 0.783375 seconds, Init Electrical Material Time: 0.165099 seconds, Init Magnetic Material Time: 0.008196
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+100% initialized.
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D point source
+Starting to add boundary conditions to simulation
+Adding 3D PML BC
+Adding 3D PML BC
+Adding 3D PML BC
+Adding 3D Parallel BC
+Adding 3D PML BC
+Adding 3D Parallel BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding analysis monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+Peak CPU memory used by end of meshing: 0.296483 GiB
+All processes are communicating and ready to proceed to simulation...
+Starting 61740 total iterations
+0.0777457% complete. Elapsed simulation time: 1.55491e-16 secs. Max time remaining: 1 hr, 3 mins, 30 secs. Auto Shutoff: 1
+Early termination of simulation by user request
+Completed 112 iterations, or 3.628131e-16s of Simulation Time
+Peak memory used running the simulation: 0.296483 GiB
