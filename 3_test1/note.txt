@@ -1,0 +1,22 @@
+#设计结构1
+1. substrate Si，Au film/Ag film容易氧化要加Al2O3，具体性能要都尝试一遍
+2. spacer Al2O3，5nm，如果Ag cube偏小共振在蓝绿光可以用SiO2（有红移效应）
+3. antenna Ag，大小数量级在close to e-1um 
+4. cavity Ag（Au会吸收黄光ohmic loss），大小数量级在e-2um
+5. hBN薄片 15nm/hBN granular: diameter available at a few nm to um
+
+sweep result:
+Txy: lambda5.9e-7 max=0.864 x=4e-8
+Tbox: lambda5.7e-7 max=51 x=3.11e-8
+=> 1. at x=3.111e-8, max Purcell and speed
+   2. at x=3.556e-8, max Intensity QE=T_xy/T_box=ca.0.86%
+
+sweep1 result:
+Tbox: 29~35nm之间Tbox呈现出了一个明显的高位共振平台，数值全部稳定在40以上。31 nm处Tbox冲到了45.48;
+3nm处Tbox达到了max. 46.69, 在这个6nm的区间内，dipole都成功陷入了等离激元边缘模式Edge Mode的核心热点Hotspot中。
+Txy:随着位置从 28 nm 向 35 nm 靠拢，远场出光效率在全波段都在稳步爬升
+
+=> 1. at 33nm to have max. Purcell/least lifetime
+   2. at 35nm to have max. brightness
+  
+
